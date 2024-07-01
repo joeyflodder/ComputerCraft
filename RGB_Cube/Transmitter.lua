@@ -8,4 +8,5 @@ do
             modem.transmit(i, i, i)
         end
     end
+    sleep(1)
 end
