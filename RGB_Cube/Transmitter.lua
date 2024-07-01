@@ -1,6 +1,6 @@
 modem = peripheral.wrap("top")
-while(true)
 colorCode = {14,1,4,13,9,11,10,6}
+while(true)
 do
     while(redstone.getInput("top"))
     do
