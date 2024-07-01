@@ -6,7 +6,7 @@ do
     do
         for i= 1, 8
         do
-            modem.transmit(i, i, i)
+            modem.transmit(i, i, color[i])
             sleep(0.05)
         end
     end
